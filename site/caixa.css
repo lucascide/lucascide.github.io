@@ -35,15 +35,11 @@ li {
 
 }
 
-.home :hover, .fotinhas :hover {
+.home :hover, .fotinhas :hover, .extra:hover {
     background-color:red;
 }
 
-.home :visited {
-    color:black;
-}
-
-.fotinhas :visited {
+.home, .fotinhas, .extra {
     color:black;
 }
 
