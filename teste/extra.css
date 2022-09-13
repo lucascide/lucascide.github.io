@@ -1,0 +1,17 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+body, html{
+    height:100%;
+}
+
+div {
+    background-image: url("./diodio.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    color:white;
+}
