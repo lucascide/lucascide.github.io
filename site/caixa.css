@@ -35,11 +35,11 @@ li {
 
 }
 
-.home :hover, .fotinhas :hover, .extra:hover {
+li:hover {
     background-color:red;
 }
 
-li{
+li a{
     color:black;
 }
 
@@ -71,7 +71,6 @@ li{
     bottom: 100px;
     font-size:40px;
     text-align:center;
-    color:black;
 
 }
 
