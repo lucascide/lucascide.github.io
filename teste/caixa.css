@@ -9,8 +9,8 @@ body {
 
 .paraiso {
     background-color: white;
-    height: 80vh;
-    width:80vh;
+    height: 80 vh;
+    width:80 vw;
     margin: 0 auto;
     text-align:justify;
     text-align:center;
@@ -56,10 +56,10 @@ li a{
 
 .oi {
     background-color:blueviolet;
-    width:80vh;
+    width:80 vw;
     margin: 0 auto;
     position:relative;
-    right:20px;
+    right:20 px;
     height:20 vh;
 
 }
