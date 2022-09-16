@@ -71,7 +71,7 @@ h1{
 }
 
 .amazon{
-    height:10vh;
+    height:10vmin;
     width:8vw;
 }
 
@@ -81,7 +81,7 @@ h1{
 }
 
 .div{
-    height: 10vh;
+    height: 10vmin;
     width: 12vw ;
     background-color:greenyellow;
     border-radius:1vmin;
