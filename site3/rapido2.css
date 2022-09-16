@@ -39,7 +39,7 @@
     font-size: 1.8vmax;
 }
 
-img {
+.imagem {
     width: 16vw;
     height: 50vmin;
 }
@@ -96,7 +96,7 @@ h1{
     width:70%;
     position: relative;
     float:left;
-    font-size: 1.5vw;
+    font-size: 1.5vmin;
     left:0;
     transition: all 400ms linear;
     margin: 3%;
@@ -113,8 +113,8 @@ h1{
     right:0;
     transition: all 400ms linear;
     display:grid;
-    align-items:center;
-    justify-items:center;
+    align-content:center;
+    justify-content:center;
 }
 
 .div:hover .span {
@@ -126,9 +126,10 @@ h1{
 }
 
 .hadouken {
-    width: 2vmax;
-    height: 7vmin;
+    width: 1.7vmax;
+    height: 7vh;
 }
+
 
 .div{
     align-self:center;
