@@ -6,21 +6,23 @@
 
 
 .body {
-    height: 100%;
+    height: 100vh;
+    display:grid;
+    grid-template-rows: 20vmin 1fr;
 }
 
 .header{
-    height: 20vh;
-    width:100%;
+    height: 20vmin;
+    width:100vw;
     background-color: yellow;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-.main{
+.main{ 
     display: grid;
-    height: 80vh;
-    width:100%;
+    align-self:stretch;
+    width:100vw;
     background-color: bisque;
     grid-template-columns: 2fr 6fr 2fr;
     align-items: center;
@@ -38,7 +40,7 @@
 
 img {
     width: 16vw;
-    height: 50vh;
+    height: 50vmin;
 }
 
 ul {
@@ -53,8 +55,8 @@ li{
     align-self:center;
     justify-self:center;
     background-color:pink;
-    height:10vh;
-    width:75%;
+    height:10vmin;
+    width:15vmax;
     align-items: center;
     justify-items: center;
 }
@@ -93,7 +95,7 @@ h1{
     width:70%;
     position: relative;
     float:left;
-    font-size: 2vw;
+    font-size: 1.7vmax;
     left:0;
     transition: all 400ms linear;
     margin: 3%;
