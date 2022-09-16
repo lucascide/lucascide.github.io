@@ -14,7 +14,7 @@
 .header{
     height: 20vmin;
     width:100vw;
-    background-color: yellow;
+    background-color: rgb(111, 253, 79);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
@@ -23,14 +23,14 @@
     display: grid;
     align-self:stretch;
     width:100vw;
-    background-color: bisque;
+    background-color: rgb(1, 140, 73);
     grid-template-columns: 2fr 6fr 2fr;
     align-items: center;
     justify-items: center;
 }
 
 .text {
-    background-color:  white;
+    background-color:  rgba(246, 245, 245, 0.855);
     align-self:stretch;
     justify-self: stretch;
     text-align:center;
@@ -55,7 +55,7 @@ li{
     list-style-type: none;
     align-self:center;
     justify-self:center;
-    background-color:pink;
+    background-color:rgba(246, 245, 245, 1);
     height:10vmin;
     width:15vw;
     align-items: center;
@@ -84,7 +84,7 @@ h1{
 .div{
     height: 10vmin;
     width: 12vw ;
-    background-color:greenyellow;
+    background-color:rgba(246, 245, 245, 0.855);
     border-radius:1vmin;
     overflow: hidden;
     position:relative;
@@ -106,7 +106,7 @@ h1{
     display: inline-block;
     width:25%;
     float:right;
-    background-color:red;
+    background-color:rgba(61, 31, 230, 0.436);
     height:10vh;
     position: absolute;
     top:0;
@@ -139,4 +139,21 @@ h1{
 
 a{
     text-decoration:inherit;
+}
+
+.anim {
+    display:grid;
+    list-style-type: none;
+    align-self:center;
+    justify-self:center;
+    background-color:rgba(246, 245, 245, 1);
+    height:10vmin;
+    width:15vw;
+    align-items: center;
+    justify-items: center;
+}
+
+.anim:hover {
+    border-left: 1vmin solid black;
+    border-top: 1vmin solid black;
 }
