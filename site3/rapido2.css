@@ -6,21 +6,24 @@
 
 
 .body {
-    height: 100vw;
+    height: 100%;
 }
 
 .header{
     height: 20vh;
+    width:100%;
     background-color: yellow;
 }
 
 .main{
     display: grid;
     height: 80vh;
+    width:100%;
     background-color: bisque;
     grid-template-columns: 20vmax 60vmax 20vmax;
     align-items: center;
     justify-items: center;
+    overflow: scroll;
 }
 
 .text {
