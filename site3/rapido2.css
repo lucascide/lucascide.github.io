@@ -38,7 +38,7 @@
 
 img {
     width: 16vw;
-    height: 50vmin;
+    height: 50vh;
 }
 
 ul {
@@ -80,7 +80,7 @@ h1{
 
 .div{
     height: 10vh;
-    width: 12vmax;
+    width: 12vw ;
     background-color:greenyellow;
     border-radius:1vmin;
     overflow: hidden;
@@ -90,12 +90,13 @@ h1{
 
 .span{
     display:inline-block;
-    width:75%;
+    width:70%;
     position: relative;
     float:left;
-    font-size: 2vmax;
+    font-size: 2vw;
     left:0;
     transition: all 400ms linear;
+    margin: 3%;
 }
 
 .seta{
@@ -131,4 +132,8 @@ h1{
     justify-self:center;
     display:grid;
     align-items:center;
+}
+
+a{
+    text-decoration:inherit;
 }
