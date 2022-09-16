@@ -4,17 +4,22 @@
     box-sizing: border-box;
 }
 
-
+body {
+    display:flex;
+    justify-content:center;
+    align-content: center;
+}
 
 .div{
     height: 12vmin;
     width: 16vmax;
     background-color:greenyellow;
-    margin: 42vmin 43vmax;
+    margin: 42vmin 35vmax;
     border-radius:1vmin;
     overflow: hidden;
     position:absolute;
     text-align:center;
+    min-width:200px;
 }
 
 .span{
