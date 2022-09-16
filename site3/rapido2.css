@@ -6,19 +6,23 @@
 
 
 .body {
-    height: 100vw;
+    height: 100%;
 }
 
 .header{
     height: 20vh;
+    width:100%;
     background-color: yellow;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .main{
     display: grid;
     height: 80vh;
+    width:100%;
     background-color: bisque;
-    grid-template-columns: 20vmax 60vmax 20vmax;
+    grid-template-columns: 2fr 6fr 2fr;
     align-items: center;
     justify-items: center;
 }
@@ -27,9 +31,100 @@
     background-color:  white;
     align-self:stretch;
     justify-self: stretch;
+    text-align:center;
+    text-align:justify;
+    padding: 2vh;
 }
 
 img {
     width: 16vmax;
     height: 50vmin;
+}
+
+ul {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 2 / 5;
+}
+
+li{
+    display:grid;
+    list-style-type: none;
+    align-self:center;
+    justify-self:center;
+    background-color:pink;
+    height:50%;
+    width:75%;
+    align-items: center;
+    justify-items: center;
+}
+
+a{
+    color:black;
+    font-size:5vmin;
+}
+
+h1{
+    text-align:center;
+}
+
+.amazon{
+    height:10vh;
+    width:8vw;
+}
+
+.tp {
+    align-self:center;
+    justify-self:center;
+}
+
+.div{
+    height: 10vmin;
+    width: 12vmax;
+    background-color:greenyellow;
+    border-radius:1vmin;
+    overflow: hidden;
+    position:relative;
+    text-align:center;
+}
+
+.span{
+    display:inline-block;
+    width:75%;
+    position: absolute;
+    float:left;
+    font-size: 0.75em;
+    left:0;
+    margin: 13% 0;
+    transition: all 400ms linear;
+}
+
+.seta{
+    display: inline-block;
+    width:25%;
+    float:right;
+    background-color:red;
+    height:100%;
+    position: absolute;
+    right:0;
+    padding: 7% 0;
+    transition: all 400ms linear;
+}
+
+.div:hover .span {
+  left: -75%
+}
+
+.div:hover .seta {
+    width:100%;
+}
+
+.hadouken {
+    width: 2vmax;
+    height: 7vmin;
+}
+
+.div{
+    align-self:center;
+    justify-self:center;
 }
