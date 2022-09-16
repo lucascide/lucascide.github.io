@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.body {
+    height: 100vw;
+}
+
+.header{
+    height: 20vh;
+    background-color: yellow;
+}
+
+.main{
+    display: grid;
+    height: 80vh;
+    background-color: bisque;
+    grid-template-columns: 20vmax 60vmax 20vmax;
+    align-items: center;
+    justify-items: center;
+}
+
+.text {
+    background-color:  white;
+    align-self:stretch;
+    justify-self: stretch;
+}
+
+img {
+    width: 16vmax;
+    height: 50vmin;
+}
