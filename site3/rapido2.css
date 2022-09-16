@@ -8,7 +8,7 @@
 .body {
     height: 100vh;
     display:grid;
-    grid-template-rows: 20vmin 1fr;
+    grid-template-rows: 20vmin 1fr 5vmin;
 }
 
 .header{
@@ -156,4 +156,13 @@ a{
 .anim:hover {
     border-left: 1vmin solid black;
     border-top: 1vmin solid black;
+}
+
+.footer{
+  display:grid;
+  align-self:stretch;
+  justify-self:stretch;
+  background-color: rgba(36, 250, 232, 0.677);
+  align-content:center;
+  justify-content:center;
 }
