@@ -9,8 +9,8 @@ body {
 
 .paraiso {
     background-color: white;
-    height:500px;
-    width:800px;
+    height: 100vh;
+    width:100vw;
     margin: 0 auto;
     text-align:justify;
     text-align:center;
@@ -36,7 +36,7 @@ li {
 }
 
 li:hover {
-    background-color:red;
+    background-color:yellow;
 }
 
 li a{
@@ -56,11 +56,11 @@ li a{
 
 .oi {
     background-color:blueviolet;
-    width:800px;
+    width:80vw;
     margin: 0 auto;
     position:relative;
     right:20px;
-    height:100px;
+    height:20vh;
 
 }
 
