@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.div{
+    height: 12vh;
+    width: 16vw;
+    background-color:greenyellow;
+    margin: 42vh 43vw;
+    border-radius:1vh;
+    overflow: hidden;
+    position:absolute;
+    text-align:center;
+}
+
+.span{
+    display:inline-block;
+    width:75%;
+    position: absolute;
+    float:left;
+    font-size: 2em;
+    left:0;
+    margin: 11% 0;
+    transition: all 400ms linear;
+}
+
+.seta{
+    display: inline-block;
+    width:25%;
+    float:right;
+    background-color:red;
+    height:100%;
+    position: absolute;
+    right:0;
+    font-size: 2em;
+    padding: 7% 0;
+    transition: all 400ms linear;
+}
+
+.div:hover .span {
+  left: -75%
+}
+
+.div:hover .seta {
+    width:100%;
+}
+
+img {
+    width: 6vh;
+    height: 7vh;
+}
