@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+div{
+    display:grid;
+    justify-content:center;
+    align-content:center;
+}
+
+.body{
+    background-color: rgb(244, 178, 55);
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: 20% 80%;
+}
+
+.pcalc {
+    font-size:30px;
+}
+
+.calculadora {
+    background-color:gray;
+    width: 300px;
+    height:500px;
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr 1fr;
+    align-items:center;
+    justify-items:center;
+}
+
+.visor {
+    grid-column: 1/5
+}
+
+.queijo {
+  background-color:black;
+  height:70px;
+  width:280px;
+  word-break: break-all;
+}
+
+.queijo p{
+    color:white;
+    font-size:20px;
+    margin: 0 20px 0 0;
+}
+
+.queijo{
+    justify-content:end;
+}
+
+button{
+    display:grid;
+    justify-items:center;
+    align-items:center;
+    height:80%;
+    width:80%;
+}
+
+.carlinhos {
+    grid-row:5/7;
+    grid-column-start:4;
+    height:90%;
+}
+
+.botão {
+    font-size:20px;
+}
