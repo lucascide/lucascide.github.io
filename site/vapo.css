@@ -1,0 +1,13 @@
+body {
+    background-image: url("./gato.jpg");
+}
+
+img {
+    height:400px;
+    width:400px;
+    display: inline-block;
+}
+
+div {
+    margin:0 300px 0 330px;
+}

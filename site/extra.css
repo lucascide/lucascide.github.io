@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./diodio.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+
+}
