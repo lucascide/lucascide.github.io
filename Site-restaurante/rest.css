@@ -46,6 +46,7 @@ div, a {
     grid-template-rows:repeat(10,1fr);
     background-color:rgb(247, 180, 37);
     height: 100%;
+    min-height: 100vh;
     width:20vw;
     position:fixed;
     top:0;
