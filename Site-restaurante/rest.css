@@ -45,7 +45,7 @@ div, a {
 .Menu{
     grid-template-rows:repeat(10,1fr);
     background-color:rgb(247, 180, 37);
-    height: 100vh;
+    height: 100%;
     width:20vw;
     position:fixed;
     top:0;
