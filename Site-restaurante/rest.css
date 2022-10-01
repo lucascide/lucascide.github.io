@@ -18,13 +18,12 @@ div, a {
     height: 100%;
     width: 100%;
     background-color:rgb(85, 31, 31);
+    grid-template-columns: 1fr;
 }
 
 .header{
     background-color:rgb(232, 200, 23);
     font-size: 5em;
-    position: absolute;
-    top:0;
     width:100%;
     height:20vh;
 }
