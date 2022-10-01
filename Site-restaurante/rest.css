@@ -23,7 +23,7 @@ div, a {
 .header{
     background-color:rgb(232, 200, 23);
     font-size: 5em;
-    width: 98.9vw;
+    width: 141.3%;
     height:20vh;
 }
 
@@ -87,7 +87,7 @@ h{
 }
 
 .descrição {
-    font-size: 2em;
+    font-size: 4vh;
 }
 
 .header img {
