@@ -1,0 +1,74 @@
+.Chat {
+    display: grid;
+    background-color:#292929;
+    width: 50vw;
+    justify-items: left;
+    align-items: center;
+    border: 1px solid gray;
+    overflow-y: scroll;
+    row-gap: 20px;
+    overflow-x: hidden;
+
+    
+
+}
+
+.balao{
+    display: grid;
+    align-content: center;
+    min-height:50px;
+    min-width:300px;
+    max-width: 49vw;
+    background-color: #ffa500;
+    border-radius: 100px;
+    white-space: nowrap;
+    
+    
+
+
+
+
+}
+
+.espaco{
+    height:50px;
+}
+
+.resposta{
+    margin: 0 450px 0 0;
+}
+
+.pergunta{
+    margin: 0 0 0 450px;
+}
+
+  
+.balao p{
+    font-size: 1em;
+}
+
+input{
+   width: 47.4vw; 
+   height:4em;
+   border-radius: 100px;
+   margin: 0 0 0 0;
+   padding: 0 0 0 20px;
+
+}
+
+form{
+    
+    position: absolute;
+    margin: 680px 0 0 0;
+    background-color:#292929;
+}
+  
+.ld{
+    display:grid;
+    align-items: center;
+}
+
+.ld img{
+    height:800px;
+    width: 1600px;
+}
